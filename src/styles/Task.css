@@ -1,0 +1,23 @@
+.TaskContainer {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.TaskContainter_button{
+    background-color: transparent;
+    font-size: 20px;
+    height: 30px;
+    margin: auto;
+    border: 0px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.TaskContainter_button:hover{
+    scale: 1.1;
+}

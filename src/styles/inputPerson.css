@@ -1,0 +1,27 @@
+.InputPerson{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.InputPerson-containerInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.personNumber-button{
+    border-radius: 20px;
+    border: 0px;
+    padding: 4px 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.personNumber-button:hover{
+    scale: 1.1;
+}
